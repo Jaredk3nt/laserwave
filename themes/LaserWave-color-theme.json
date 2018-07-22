@@ -1,0 +1,220 @@
+{
+    "name": "LaserWave",
+    "colors": {
+        "editor.foreground": "#fff",
+        "editor.background": "#242029",
+        "titleBar.activeBackground": "#242029",
+        "sideBar.background": "#242029",
+        "sideBarSectionHeader.background": "#242029",
+        "sideBarTitle.foreground": "#EB64B9",
+        "activityBar.background": "#242029",
+        "activityBar.foreground": "#fff",
+        "activityBarBadge.background": "#EB64B9",
+        "statusBar.background": "#EB64B9",
+        "statusBar.noFolderBackground": "#EB64B9",
+        "editorGroupHeader.tabsBackground": "#242029",
+        "tab.activeBorder": "#EB64B9",
+        "tab.inactiveBackground": "#242029",
+        "editor.wordHighlightBackground": "#eb64ba27",
+        "editor.selectionBackground":"#eb64ba27",
+        "editor.findMatchBackground":"#40b4c433",
+        "editor.findMatchHighlightBackground":"#40b4c427"
+    },
+    "tokenColors": [
+        {
+            "name": "keywords",
+            "scope": [
+                "keyword.control.module.js",
+                "storage.type.class.js",
+                "storage.type.extends.js",
+                "storage.type.js",
+                "variable.language.this.js",
+                "constant.language.boolean.false.js",
+                "constant.language.boolean.true.js",
+                "keyword.control.switch.js",
+                "keyword.control.loop.js",
+                "keyword.control.conditional.js",
+                "keyword.control.flow.js",
+                "keyword.operator.accessor.js",
+                "keyword.other.important.css",
+                "keyword.control.at-rule.media.scss",
+                "entity.name.tag.reference.scss",
+                "meta.class.python",
+                "storage.type.function.python",
+                "keyword.control.flow.python",
+                "storage.type.function.js"
+            ],
+            "settings": {
+                "foreground": "#40b4c4"
+            }
+        },
+        {
+            "name": "functions",
+            "scope": [
+                "entity.name.function.js",
+                "entity.name.function.method.js",
+                "entity.name.function.python"
+            ],
+            "settings": {
+                "foreground": "#EB64B9"
+            }
+        },
+        {
+            "name": "strings",
+            "scope": [
+                "string",
+                "string.quoted.module.js",
+                "string.quoted.double.js",
+                "string.quoted.single.js",
+                "string.quoted.template.js",
+                "string.unquoted.js",
+                "string.quoted.double.json.comments",
+                "string.quoted.double.html",
+                "string.quoted.double.css"
+            ],
+            "settings": {
+                "foreground": "#b4dce7"
+            }
+        },
+        {
+            "name": "numbers",
+            "scope": [
+                "constant.numeric",
+                "constant.numeric.js",
+                "constant.numeric.css"
+            ],
+            "settings": {
+                "foreground": "#b381c5"
+            }
+        },
+        {
+            "name": "punctuation",
+            "scope": [
+                "punctuation.terminator",
+                "punctuation.separator",
+                "punctuation.parenthesis",
+                "punctuation.definition.string",
+                "meta.brace.curly.litobj.js",
+                "meta.brace.round.js",
+                "meta.brace.curly.js",
+                "meta.delimiter.comma.js",
+                "punctuation.separator.key-value.js",
+                "meta.brace.square.js",
+                "punctuation.definition.tag.jsx",
+                "punctuation.definition.tag.html",
+                "punctuation.section.property-list.end.bracket.curly.css",
+                "punctuation.section.property-list.begin.bracket.curly.css",
+                "punctuation.terminator.rule.css",
+                "punctuation.separator.key-value.css",
+                "punctuation.section.embedded",
+                "punctuation.definition.string.begin.js",
+                "punctuation.definition.string.end.js",
+                "punctuation.definition.parameters.begin.python",
+                "punctuation.definition.parameters.end.python",
+                "punctuation.section.function.begin.python",
+                "punctuation.separator.parameters.python",
+                "punctuation.section.class.begin.python",
+                "punctuation.separator.dict.python",
+                "punctuation.definition.arguments.begin.python"
+            ],
+            "settings": {
+                "foreground": "#716385"
+            }
+        },
+        {
+            "name": "operators",
+            "scope": [
+                "keyword.operator.comparison",
+                "keyword.operator.arithmetic",
+                "keyword.operator.assignment",
+                "keyword.operator.logical",
+                "storage.type.function.arrow.js",
+                "keyword.operator.relational.js",
+                "keyword.operator.ternary.js",
+                "keyword.operator.arithmetic.js",
+                "keyword.operator.assignment.js",
+                "keyword.operator.logical.js",
+                "meta.tag.inline.any.html",
+                "keyword.operator.assignment.python",
+                "keyword.operator.arithmetic.python",
+                "keyword.operator.logical.python"
+            ],
+            "settings": {
+                "foreground": "#74dfc4"
+            }
+        },
+        {
+            "name": "comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#48424e"
+            }
+        },
+        {
+            "name": "tags",
+            "scope": [
+                "entity.name.tag.open.jsx",
+                "entity.name.tag.close.jsx",
+                "entity.name.tag.structure.any.html",
+                "entity.name.tag.inline.any.html"
+            ],
+            "settings": {
+                "foreground": "#74dfc4"
+            }
+        },
+        {
+            "name": "attributes",
+            "scope": [
+                "entity.other.attribute-name",
+                "entity.other.attribute-name.jsx",
+                "entity.other.attribute-name.id.html",
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.id.css",
+                "entity.other.attribute-name.class.css"
+            ],
+            "settings": {
+                "foreground": "#EB64B9"
+            }
+        },
+        {
+            "name": "properties",
+            "scope": [
+                "support.type.property-name.css",
+                "variable.scss",
+                "support.type.property-name.json",
+                "variable.other.property.js"
+            ],
+            "settings": {
+                "foreground": "#40b4c4"
+            }
+        },
+        {
+            "name": "builtins",
+            "scope": [
+                "support.class.builtin.js",
+                "support.type.object.console.js",
+                "support.type.object.dom.js",
+                "variable.language.special.self.python",
+                "support.function.builtin.python",
+                "variable.other.constant.js",
+                "variable.language.this.js"
+            ],
+            "settings": {
+                "foreground": "#ffe261"
+            }
+        },
+        {
+            "name": "variables",
+            "scope": [
+                "variable.other.readwrite.js",
+                "variable.other.object.js"
+            ],
+            "settings": {
+                "foreground": "#fff"
+            }
+        }
+    ]
+}

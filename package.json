@@ -1,0 +1,22 @@
+{
+    "name": "laserwave",
+    "displayName": "LaserWave",
+    "description": "Retro outrun syntax theme",
+    "version": "0.0.1",
+    "publisher": "jaredkent",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "LaserWave",
+                "uiTheme": "vs-dark",
+                "path": "./themes/LaserWave-color-theme.json"
+            }
+        ]
+    }
+}
