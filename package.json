@@ -2,8 +2,17 @@
     "name": "laserwave",
     "displayName": "LaserWave",
     "description": "Retro outrun syntax theme",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "jaredkent",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jaredk3nt/laserwave"
+    },
+    "icon": "laserwave-logo.png",
+    "galleryBanner": {
+        "color": "#242029",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.25.0"
     },
