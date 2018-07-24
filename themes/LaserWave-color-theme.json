@@ -27,7 +27,6 @@
                 "keyword.control.module.js",
                 "storage.type.class.js",
                 "storage.type.extends.js",
-                "storage.type.js",
                 "variable.language.this.js",
                 "constant.language.boolean.false.js",
                 "constant.language.boolean.true.js",
@@ -42,7 +41,13 @@
                 "meta.class.python",
                 "storage.type.function.python",
                 "keyword.control.flow.python",
-                "storage.type.function.js"
+                "storage.type.function.js",
+                "keyword.control.export.ts",
+                "keyword.control.flow.ts",
+                "keyword.control.from.ts",
+                "keyword.control.import.ts",
+                "storage.type.class.ts",
+                "keyword.control.loop.ts"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -53,7 +58,9 @@
             "scope": [
                 "entity.name.function.js",
                 "entity.name.function.method.js",
-                "entity.name.function.python"
+                "entity.name.function.python",
+                "meta.method.declaration.ts",
+                "entity.name.function.ts"
             ],
             "settings": {
                 "foreground": "#EB64B9"
@@ -115,7 +122,11 @@
                 "punctuation.separator.parameters.python",
                 "punctuation.section.class.begin.python",
                 "punctuation.separator.dict.python",
-                "punctuation.definition.arguments.begin.python"
+                "punctuation.definition.arguments.begin.python",
+                "punctuation.definition.block.ts",
+                "punctuation.definition.parameters.begin.ts",
+                "punctuation.definition.parameters.end.ts",
+                "meta.brace.round.ts"
             ],
             "settings": {
                 "foreground": "#716385"
@@ -137,7 +148,14 @@
                 "meta.tag.inline.any.html",
                 "keyword.operator.assignment.python",
                 "keyword.operator.arithmetic.python",
-                "keyword.operator.logical.python"
+                "keyword.operator.logical.python",
+                "punctuation.accessor.ts",
+                "storage.type.function.arrow.ts",
+                "entity.name.type.ts",
+                "keyword.operator.increment.ts",
+                "keyword.operator.increment.js",
+                "keyword.operator.relational.ts",
+                "meta.decorator.ts"
             ],
             "settings": {
                 "foreground": "#74dfc4"
@@ -185,7 +203,8 @@
                 "support.type.property-name.css",
                 "variable.scss",
                 "support.type.property-name.json",
-                "variable.other.property.js"
+                "variable.other.property.js",
+                "variable.other.property.ts"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -200,7 +219,11 @@
                 "variable.language.special.self.python",
                 "support.function.builtin.python",
                 "variable.other.constant.js",
-                "variable.language.this.js"
+                "variable.language.this.js",
+                "support.constant.json.ts",
+                "variable.language.this.ts",
+                "support.class.console.ts",
+                "support.class.console.js"
             ],
             "settings": {
                 "foreground": "#ffe261"
@@ -210,10 +233,30 @@
             "name": "variables",
             "scope": [
                 "variable.other.readwrite.js",
-                "variable.other.object.js"
+                "variable.other.object.js",
+                "variable.parameter.ts",
+                "variable.other.readwrite.ts",
+                "variable.other.object.ts",
+                "variable.other.property.dom.ts",
+                "support.function.json.ts",
+                "support.function.console.ts",
+                "support.variable.property.dom.ts"
             ],
             "settings": {
                 "foreground": "#fff"
+            }
+        },
+        {
+            "name": "modifiers",
+            "scope": [
+                "storage.type.js",
+                "storage.type.ts",
+                "storage.modifier.ts",
+                "keyword.operator.new.ts",
+                "meta.type.annotation.ts"
+            ],
+            "settings": {
+                "foreground": "#b381c5"
             }
         }
     ]
