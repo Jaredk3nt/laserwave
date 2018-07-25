@@ -67,13 +67,6 @@
             }
         },
         {
-			"name": "Tag",
-			"scope": "",
-			"settings": {
-				"foreground": "#74dfc4"
-			}
-		},
-        {
             "name": "strings",
             "scope": [
                 "string",
