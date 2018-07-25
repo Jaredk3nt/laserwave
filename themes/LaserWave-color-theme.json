@@ -30,6 +30,7 @@
         {
             "name": "keywords",
             "scope": [
+                "keyword.control",
                 "keyword.control.module.js",
                 "storage.type.class.js",
                 "storage.type.extends.js",
@@ -53,7 +54,13 @@
                 "keyword.control.from.ts",
                 "keyword.control.import.ts",
                 "storage.type.class.ts",
-                "keyword.control.loop.ts"
+                "keyword.control.loop.ts",
+                "keyword.control.ruby",
+                "keyword.control.module.ruby",
+                "keyword.control.class.ruby",
+                "keyword.other.special-method.ruby",
+                "keyword.control.def.ruby",
+                "markup.heading"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -62,11 +69,13 @@
         {
             "name": "functions",
             "scope": [
+                "entity.name.function",
                 "entity.name.function.js",
                 "entity.name.function.method.js",
                 "entity.name.function.python",
                 "meta.method.declaration.ts",
-                "entity.name.function.ts"
+                "entity.name.function.ts",
+                "entity.name.function.ruby"
             ],
             "settings": {
                 "foreground": "#EB64B9"
@@ -83,7 +92,8 @@
                 "string.unquoted.js",
                 "string.quoted.double.json.comments",
                 "string.quoted.double.html",
-                "string.quoted.double.css"
+                "string.quoted.double.css",
+                "string.other.link.title.markdown"
             ],
             "settings": {
                 "foreground": "#b4dce7"
@@ -135,7 +145,13 @@
                 "meta.brace.round.ts",
                 "punctuation.definition.tag.end",
                 "punctuation.definition.tag.begin",
-                "punctuation.definition.tag"
+                "punctuation.definition.tag",
+                "punctuation.definition.parameters.ruby",
+                "punctuation.section.array.begin.ruby",
+                "punctuation.section.array.end.ruby",
+                "punctuation.section.scope.begin.ruby",
+                "punctuation.section.scope.end.ruby",
+                "punctuation.definition.markdown"
             ],
             "settings": {
                 "foreground": "#716385"
@@ -164,7 +180,9 @@
                 "keyword.operator.increment.ts",
                 "keyword.operator.increment.js",
                 "keyword.operator.relational.ts",
-                "meta.decorator.ts"
+                "meta.decorator.ts",
+                "punctuation.separator.method.ruby",
+                "keyword.operator.other.ruby"
             ],
             "settings": {
                 "foreground": "#74dfc4"
@@ -234,7 +252,11 @@
                 "support.constant.json.ts",
                 "variable.language.this.ts",
                 "support.class.console.ts",
-                "support.class.console.js"
+                "support.class.console.js",
+                "constant.language",
+                "constant.language.undefined.js",
+                "variable.language.self.ruby",
+                "variable.other.constant.ruby"
             ],
             "settings": {
                 "foreground": "#ffe261"
@@ -264,10 +286,22 @@
                 "storage.type.ts",
                 "storage.modifier.ts",
                 "keyword.operator.new.ts",
-                "meta.type.annotation.ts"
+                "meta.type.annotation.ts",
+                "punctuation.definition.variable.ruby",
+                "punctuation.definition.constant.ruby"
             ],
             "settings": {
                 "foreground": "#b381c5"
+            }
+        },
+        {
+            "name": "Highlights",
+            "scope": [
+                "markup.bold",
+                "markup.italic"
+            ],
+            "settings": {
+                "foreground":"#EB64B9"
             }
         }
     ]

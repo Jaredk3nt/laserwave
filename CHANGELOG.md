@@ -3,6 +3,14 @@ All notable changes to the "laserwave" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.1
+- Language Support Added for:
+    - Ruby (requested by @thegoodnate)
+    - Markdown
+- Language Updates
+    - HTML (better tag coverage) **thanks to @Icatania**
+    - undefined & null now highlighted as builtin in Javascript
+
 ## 1.1.1
 - Updating readme to show color scheme
 - Minor modifications

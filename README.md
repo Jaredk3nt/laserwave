@@ -2,12 +2,14 @@
 
 An 80's synthwave / outrun inspired theme for Visual Studio Code.
 
-Currently supports:
+**Currently supports:**
 - Python
 - Javascript
     - React
 - Typescript (New... may be issues still)
     - Angular
+- Ruby
+- Markdown
 
 If you are a fan of the theme and want a language supported open an issue with an example file from the language!
 
@@ -26,4 +28,4 @@ If you are a fan of the theme and want a language supported open an issue with a
 | Purple Taupe | #716385 | normal | Punctuation |
 | Mustard | #ffe261 | normal | Builtins, Constants |
 | White | #ffffff | normal | Variables |
-| Raisin Black | #242029 | --- | Background |
+| Raisin Black | #27212e | --- | Background |
