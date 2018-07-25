@@ -67,15 +67,8 @@
             }
         },
         {
-			"name": "Html punctuations tags",
-			"scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-			"settings": {
-				"foreground": "#74dfc4"
-			}
-        },
-        {
 			"name": "Tag",
-			"scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
+			"scope": "",
 			"settings": {
 				"foreground": "#74dfc4"
 			}
@@ -140,7 +133,10 @@
                 "punctuation.definition.block.ts",
                 "punctuation.definition.parameters.begin.ts",
                 "punctuation.definition.parameters.end.ts",
-                "meta.brace.round.ts"
+                "meta.brace.round.ts",
+                "punctuation.definition.tag.end",
+                "punctuation.definition.tag.begin",
+                "punctuation.definition.tag"
             ],
             "settings": {
                 "foreground": "#716385"
@@ -191,7 +187,9 @@
                 "entity.name.tag.open.jsx",
                 "entity.name.tag.close.jsx",
                 "entity.name.tag.structure.any.html",
-                "entity.name.tag.inline.any.html"
+                "entity.name.tag.inline.any.html",
+                "entity.name.tag",
+                "meta.tag.sgml"
             ],
             "settings": {
                 "foreground": "#74dfc4"
