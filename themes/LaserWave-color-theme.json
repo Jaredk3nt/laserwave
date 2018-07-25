@@ -67,6 +67,20 @@
             }
         },
         {
+			"name": "Html punctuations tags",
+			"scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
+			"settings": {
+				"foreground": "#74dfc4"
+			}
+        },
+        {
+			"name": "Tag",
+			"scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
+			"settings": {
+				"foreground": "#74dfc4"
+			}
+		},
+        {
             "name": "strings",
             "scope": [
                 "string",
