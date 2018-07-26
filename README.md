@@ -1,17 +1,17 @@
 # LaserWave
 
-An 80's synthwave / outrun inspired theme for Visual Studio Code.
+An clean 80's synthwave / outrun inspired theme for Visual Studio Code.
 
 **Currently supports:**
 - Python
 - Javascript
     - React
-- Typescript (New... may be issues still)
+- Typescript
     - Angular
 - Ruby
 - Markdown
 
-If you are a fan of the theme and want a language supported open an issue with an example file from the language!
+If you find any missing highlighting or want a new language supported open an issue with an example file from the language and I will get right on it 😀
 
 ![screenshot](screenshot.png)
 
@@ -20,7 +20,7 @@ If you are a fan of the theme and want a language supported open an issue with a
 | Color   | Hex         | font-style  | scope |
 | ------- |:-----------:|:-----------:|:-----|
 | Maximum Blue | #40b4c4 | normal | Keywords, Properties |
-| Hot Pink | #EB64B9 | normal | Functions, Attributes |
+| Hot Pink | #EB64B9 | normal | Functions, Attributes, Highlighting |
 | Powder Blue | #b4dce7 | normal | Strings |
 | African Violet | #b381c5 | normal | Numbers, Types |
 | Pearl Aqua | #74dfc4 | normal | Operators, Tags |
@@ -29,3 +29,7 @@ If you are a fan of the theme and want a language supported open an issue with a
 | Mustard | #ffe261 | normal | Builtins, Constants |
 | White | #ffffff | normal | Variables |
 | Raisin Black | #27212e | --- | Background |
+
+## Contributing to LaserWave
+
+I'm actively supporting this theme so if you open an issue I will respond 😁! If you would like to contribute to the project that is awesome, just please check out the contribution guidelines in the wiki before submitting a PR.

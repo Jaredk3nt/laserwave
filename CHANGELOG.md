@@ -3,7 +3,11 @@ All notable changes to the "laserwave" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 1.2.1
+## 1.1.3
+- Logo / screenshot update
+- Updating readme
+
+## 1.1.2
 - Language Support Added for:
     - Ruby (requested by @thegoodnate)
     - Markdown
