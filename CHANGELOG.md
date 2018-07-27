@@ -3,6 +3,11 @@ All notable changes to the "laserwave" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.1.4
+- Language Support Added for:
+    - Java
+    - C#
+
 ## 1.1.3
 - Logo / screenshot update
 - Updating readme

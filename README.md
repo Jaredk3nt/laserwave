@@ -10,6 +10,8 @@ An clean 80's synthwave / outrun inspired theme for Visual Studio Code.
     - Angular
 - Ruby
 - Markdown
+- Java
+- C#
 
 If you find any missing highlighting or want a new language supported open an issue with an example file from the language and I will get right on it 😀
 
