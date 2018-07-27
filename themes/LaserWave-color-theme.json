@@ -31,6 +31,7 @@
             "name": "keywords",
             "scope": [
                 "keyword.control",
+                "keyword.other",
                 "keyword.control.module.js",
                 "storage.type.class.js",
                 "storage.type.extends.js",
@@ -60,7 +61,12 @@
                 "keyword.control.class.ruby",
                 "keyword.other.special-method.ruby",
                 "keyword.control.def.ruby",
-                "markup.heading"
+                "markup.heading",
+                "keyword.other.import.java",
+                "keyword.other.package.java",
+                "storage.modifier.java",
+                "storage.modifier.extends.java",
+                "storage.modifier.cs"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -113,6 +119,7 @@
         {
             "name": "punctuation",
             "scope": [
+                "punctuation.bracket",
                 "punctuation.terminator",
                 "punctuation.separator",
                 "punctuation.parenthesis",
@@ -151,7 +158,13 @@
                 "punctuation.section.array.end.ruby",
                 "punctuation.section.scope.begin.ruby",
                 "punctuation.section.scope.end.ruby",
-                "punctuation.definition.markdown"
+                "punctuation.definition.markdown",
+                "punctuation.definition.parameters.begin.bracket.round.java",
+                "punctuation.definition.parameters.end.bracket.round.java",
+                "punctuation.definition.typeparameters.begin.cs",
+                "punctuation.definition.typeparameters.end.cs",
+                "punctuation.squarebracket.open.cs",
+                "punctuation.squarebracket.close.cs"
             ],
             "settings": {
                 "foreground": "#716385"
@@ -182,7 +195,12 @@
                 "keyword.operator.relational.ts",
                 "meta.decorator.ts",
                 "punctuation.separator.method.ruby",
-                "keyword.operator.other.ruby"
+                "keyword.operator.other.ruby",
+                "keyword.operator",
+                "keyword.operator.increment-decrement.java",
+                "punctuation.accessor.cs",
+                "punctuation.separator.java",
+                "punctuation.separator.period.java"
             ],
             "settings": {
                 "foreground": "#74dfc4"
@@ -229,6 +247,7 @@
         {
             "name": "properties",
             "scope": [
+                "variable.other.property",
                 "support.type.property-name.css",
                 "variable.scss",
                 "support.type.property-name.json",
@@ -242,6 +261,7 @@
         {
             "name": "builtins",
             "scope": [
+                "variable.language.this",
                 "support.class.builtin.js",
                 "support.type.object.console.js",
                 "support.type.object.dom.js",
@@ -282,13 +302,16 @@
         {
             "name": "Types",
             "scope": [
+                "keyword.type.js",
                 "storage.type.js",
                 "storage.type.ts",
+                "storage.type",
                 "storage.modifier.ts",
                 "keyword.operator.new.ts",
                 "meta.type.annotation.ts",
                 "punctuation.definition.variable.ruby",
-                "punctuation.definition.constant.ruby"
+                "punctuation.definition.constant.ruby",
+                "keyword.type.cs"
             ],
             "settings": {
                 "foreground": "#b381c5"
