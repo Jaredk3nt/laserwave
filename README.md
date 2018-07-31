@@ -2,6 +2,10 @@
 
 An clean 80's synthwave / outrun inspired theme for Visual Studio Code.
 
+![screenshot](screenshot.png)
+
+** *LaserWave Italic* -- now avaliable **
+
 **Currently supports:**
 - Python
 - Javascript
@@ -14,8 +18,6 @@ An clean 80's synthwave / outrun inspired theme for Visual Studio Code.
 - C#
 
 If you find any missing highlighting or want a new language supported open an issue with an example file from the language and I will get right on it 😀
-
-![screenshot](screenshot.png)
 
 ## Color Scheme
 
@@ -31,6 +33,12 @@ If you find any missing highlighting or want a new language supported open an is
 | Mustard | #ffe261 | normal | Builtins, Constants |
 | White | #ffffff | normal | Variables |
 | Raisin Black | #27212e | --- | Background |
+
+#### *LaserWave Italic*
+
+Italics include:
+  - Keywords
+  - Attributes
 
 ## Contributing to LaserWave
 

@@ -28,7 +28,7 @@
     },
     "tokenColors": [
         {
-            "name": "keywords",
+            "name": "keyword italics",
             "scope": [
                 "keyword.control",
                 "keyword.other",
@@ -69,7 +69,8 @@
                 "keyword.import.go"
             ],
             "settings": {
-                "foreground": "#40b4c4"
+                "foreground": "#40b4c4",
+                "fontStyle": "italic"
             }
         },
         {
@@ -124,7 +125,6 @@
                 "punctuation.bracket",
                 "punctuation.terminator",
                 "punctuation.separator",
-                "punctuation.definition",
                 "punctuation.parenthesis",
                 "punctuation.definition.string",
                 "meta.brace.curly.litobj.js",
@@ -249,7 +249,8 @@
                 "entity.other.attribute-name.class.css"
             ],
             "settings": {
-                "foreground": "#EB64B9"
+                "foreground": "#EB64B9",
+                "fontStyle": "italic"
             }
         },
         {
@@ -270,6 +271,7 @@
             "scope": [
                 "variable.language.this",
                 "support.class.builtin.js",
+                "constant.language.boolean",
                 "constant.language.boolean.false.js",
                 "constant.language.boolean.true.js",
                 "support.type.object.console.js",
