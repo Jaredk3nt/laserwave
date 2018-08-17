@@ -25,6 +25,20 @@
         "gitDecoration.conflictingResourceForeground": "#EB64B9",
         "gitDecoration.deletedResourceForeground": "#b381c5",
         "gitDecoration.ignoredResourceForeground": "#4e415c",
+        "button.background": "#EB64B9",
+        "progressBar.background": "#40b4c4",
+        "merge.currentHeaderBackground": "#74dfc4cc",
+        "merge.currentContentBackground": "#74dfc433",
+        "merge.incomingHeaderBackground": "#40b4c4cc",
+        "merge.incomingContentBackground": "#40b4c433",
+        "notifications.background": "#3e3549",
+
+        "terminal.ansiBlue": "#40b4c4",
+        "terminal.ansiCyan": "#b4dce7",
+        "terminal.ansiGreen": "#74dfc4",
+        "terminal.ansiMagenta": "#b381c5",
+        "terminal.ansiRed": "#EB64B9",
+        "terminal.ansiYellow": "#ffe261"
     },
     "tokenColors": [
         {
@@ -66,7 +80,8 @@
                 "storage.modifier.extends.java",
                 "storage.modifier.cs",
                 "keyword.package.go",
-                "keyword.import.go"
+                "keyword.import.go",
+                "storage.modifier.js"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -83,7 +98,10 @@
                 "entity.name.function.ts",
                 "entity.name.function.ruby",
                 "support.function.misc.scss",
-                "support.function.go"
+                "support.function.go",
+                "support.function.console.js",
+                "support.function.dom.js",
+                "support.function"
             ],
             "settings": {
                 "foreground": "#EB64B9"
@@ -259,7 +277,9 @@
                 "support.type.property-name.css",
                 "support.type.property-name.json",
                 "variable.other.property.js",
-                "variable.other.property.ts"
+                "variable.other.property.ts",
+                "support.variable.property.dom.js",
+                "support.variable.property.js"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -327,10 +347,11 @@
                 "keyword.const.go",
                 "keyword.type.go",
                 "keyword.function.go",
-                "keyword.struct.go"
+                "keyword.struct.go",
+                "storage.modifier.async.js"
             ],
             "settings": {
-                "foreground": "#b381c5"
+                "foreground": "#a96bc0"
             }
         },
         {
@@ -341,6 +362,24 @@
             ],
             "settings": {
                 "foreground":"#EB64B9"
+            }
+        },
+        {
+            "name": "Object keys",
+            "scope": [
+                "meta.object-literal.key.js"
+            ],
+            "settings": {
+                "foreground": "#40b4c4"
+            }
+        },
+        {
+            "name": "Orange",
+            "scope": [
+
+            ],
+            "settings": {
+                "foreground": "#ffb85b"
             }
         }
     ]

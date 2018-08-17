@@ -25,6 +25,19 @@
         "gitDecoration.conflictingResourceForeground": "#EB64B9",
         "gitDecoration.deletedResourceForeground": "#b381c5",
         "gitDecoration.ignoredResourceForeground": "#4e415c",
+        "button.background": "#EB64B9",
+        "progressBar.background": "#40b4c4",
+        "merge.currentHeaderBackground": "#74dfc4cc",
+        "merge.currentContentBackground": "#74dfc433",
+        "merge.incomingHeaderBackground": "#40b4c4cc",
+        "merge.incomingContentBackground": "#40b4c433",
+
+        "terminal.ansiBlue": "#40b4c4",
+        "terminal.ansiCyan": "#b4dce7",
+        "terminal.ansiGreen": "#74dfc4",
+        "terminal.ansiMagenta": "#b381c5",
+        "terminal.ansiRed": "#EB64B9",
+        "terminal.ansiYellow": "#ffe261"
     },
     "tokenColors": [
         {
@@ -344,6 +357,15 @@
             "settings": {
                 "foreground":"#EB64B9"
             }
-        }
+        },
+        {
+            "name": "Object keys",
+            "scope": [
+                "meta.object-literal.key.js"
+            ],
+            "settings": {
+                "foreground": "#40b4c4"
+            }
+        },
     ]
 }
