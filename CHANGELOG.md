@@ -3,6 +3,11 @@ All notable changes to the "laserwave" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.1
+- Language Support Added for:
+    - Powershell
+- Updates to JS and JSX highlighting
+
 ## 1.2.0
 - Adding *LaserWave Italic*
     - New version of theme including italics on keywords and attributes

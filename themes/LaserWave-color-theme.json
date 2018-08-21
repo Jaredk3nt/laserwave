@@ -189,7 +189,15 @@
                 "punctuation.section.function.scss",
                 "punctuation.definition.map.begin.bracket.round.scss",
                 "punctuation.definition.constant.css",
-                "puncatuation.other.comma.go"
+                "puncatuation.other.comma.go",
+                "punctuation.section.class.begin.js",
+                "punctuation.section.class.end.js",
+                "punctuation.section.bracket.begin.powershell",
+                "punctuation.section.bracket.end.powershell",
+                "punctuation.section.braces.begin.powershell",
+                "punctuation.section.braces.end.powershell",
+                "punctuation.section.group.begin.powershell",
+                "punctuation.section.group.end.powershell",
             ],
             "settings": {
                 "foreground": "#716385"
@@ -306,7 +314,8 @@
                 "constant.language.undefined.js",
                 "variable.language.self.ruby",
                 "variable.other.constant.ruby",
-                "constant.other.elm"
+                "constant.other.elm",
+                "support.constant.automatic.powershell"
             ],
             "settings": {
                 "foreground": "#ffe261"
@@ -324,7 +333,8 @@
                 "support.function.json.ts",
                 "support.function.console.ts",
                 "support.variable.property.dom.ts",
-                "variable.scss"
+                "variable.scss",
+                "variable.other.readwrite.powershell"
             ],
             "settings": {
                 "foreground": "#fff"
@@ -367,7 +377,8 @@
         {
             "name": "Object keys",
             "scope": [
-                "meta.object-literal.key.js"
+                "meta.object-literal.key.js",
+                "constant.other.object.key.js"
             ],
             "settings": {
                 "foreground": "#40b4c4"

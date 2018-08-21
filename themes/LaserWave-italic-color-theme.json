@@ -31,6 +31,7 @@
         "merge.currentContentBackground": "#74dfc433",
         "merge.incomingHeaderBackground": "#40b4c4cc",
         "merge.incomingContentBackground": "#40b4c433",
+        "notifications.background": "#3e3549",
 
         "terminal.ansiBlue": "#40b4c4",
         "terminal.ansiCyan": "#b4dce7",
@@ -79,7 +80,8 @@
                 "storage.modifier.extends.java",
                 "storage.modifier.cs",
                 "keyword.package.go",
-                "keyword.import.go"
+                "keyword.import.go",
+                "storage.modifier.js"
             ],
             "settings": {
                 "foreground": "#40b4c4",
@@ -97,7 +99,10 @@
                 "entity.name.function.ts",
                 "entity.name.function.ruby",
                 "support.function.misc.scss",
-                "support.function.go"
+                "support.function.go",
+                "support.function.console.js",
+                "support.function.dom.js",
+                "support.function"
             ],
             "settings": {
                 "foreground": "#EB64B9"
@@ -139,6 +144,7 @@
                 "punctuation.terminator",
                 "punctuation.separator",
                 "punctuation.parenthesis",
+                "punctuation.definition",
                 "punctuation.definition.string",
                 "meta.brace.curly.litobj.js",
                 "meta.brace.round.js",
@@ -184,7 +190,15 @@
                 "punctuation.section.function.scss",
                 "punctuation.definition.map.begin.bracket.round.scss",
                 "punctuation.definition.constant.css",
-                "puncatuation.other.comma.go"
+                "puncatuation.other.comma.go",
+                "punctuation.section.class.begin.js",
+                "punctuation.section.class.end.js",
+                "punctuation.section.bracket.begin.powershell",
+                "punctuation.section.bracket.end.powershell",
+                "punctuation.section.braces.begin.powershell",
+                "punctuation.section.braces.end.powershell",
+                "punctuation.section.group.begin.powershell",
+                "punctuation.section.group.end.powershell",
             ],
             "settings": {
                 "foreground": "#716385"
@@ -273,7 +287,9 @@
                 "support.type.property-name.css",
                 "support.type.property-name.json",
                 "variable.other.property.js",
-                "variable.other.property.ts"
+                "variable.other.property.ts",
+                "support.variable.property.dom.js",
+                "support.variable.property.js"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -301,7 +317,8 @@
                 "constant.language.undefined.js",
                 "variable.language.self.ruby",
                 "variable.other.constant.ruby",
-                "constant.other.elm"
+                "constant.other.elm",
+                "support.constant.automatic.powershell"
             ],
             "settings": {
                 "foreground": "#ffe261"
@@ -319,7 +336,8 @@
                 "support.function.json.ts",
                 "support.function.console.ts",
                 "support.variable.property.dom.ts",
-                "variable.scss"
+                "variable.scss",
+                "variable.other.readwrite.powershell"
             ],
             "settings": {
                 "foreground": "#fff"
@@ -342,7 +360,8 @@
                 "keyword.const.go",
                 "keyword.type.go",
                 "keyword.function.go",
-                "keyword.struct.go"
+                "keyword.struct.go",
+                "storage.modifier.async.js"
             ],
             "settings": {
                 "foreground": "#b381c5"
@@ -361,7 +380,7 @@
         {
             "name": "Object keys",
             "scope": [
-                "meta.object-literal.key.js"
+                "meta.object-literal.key.js","constant.other.object.key.js"
             ],
             "settings": {
                 "foreground": "#40b4c4"
