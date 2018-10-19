@@ -28,8 +28,8 @@ If you find any missing highlighting or want a new language supported open an is
 | Powder Blue | #b4dce7 | normal | Strings |
 | African Violet | #b381c5 | normal | Numbers, Types |
 | Pearl Aqua | #74dfc4 | normal | Operators, Tags |
-| Old Lavender | #48424e | normal | Comments |
-| Purple Taupe | #716385 | normal | Punctuation |
+| Old Lavender | #91889b | normal | Comments |
+| Roman Silver | #716385 | normal | Punctuation |
 | Mustard | #ffe261 | normal | Builtins, Constants |
 | White | #ffffff | normal | Variables |
 | Raisin Black | #27212e | --- | Background |
