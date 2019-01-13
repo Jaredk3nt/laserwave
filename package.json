@@ -2,7 +2,7 @@
     "name": "laserwave",
     "displayName": "LaserWave",
     "description": "Retro outrun syntax theme",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "publisher": "jaredkent",
     "repository": {
         "type": "git",
@@ -32,5 +32,6 @@
                 "path": "./themes/LaserWave-italic-color-theme.json"
             }
         ]
-    }
+    },
+    "license": "MIT"
 }

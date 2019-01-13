@@ -3,6 +3,10 @@ All notable changes to the "laserwave" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.3
+- Adding MIT license 
+- Updating gitDecoration color for untracked files to #40b4c4
+
 ## 1.2.2
 - Improved readability of comments **thanks to @cameronstinson4**
 
