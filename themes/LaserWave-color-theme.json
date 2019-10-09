@@ -1,36 +1,50 @@
 {
     "name": "LaserWave",
     "colors": {
-        "editor.foreground": "#fff",
+        "editor.foreground": "#ffffff",
         "editor.background": "#27212e",
+
         "titleBar.activeBackground": "#27212e",
+
         "sideBar.background": "#27212e",
+        "sideBar.foreground": "#fff",
         "sideBarSectionHeader.background": "#27212e",
         "sideBarTitle.foreground": "#EB64B9",
+
         "activityBar.background": "#27212e",
         "activityBar.foreground": "#fff",
         "activityBarBadge.background": "#EB64B9",
+
         "statusBar.background": "#EB64B9",
         "statusBar.noFolderBackground": "#EB64B9",
         "statusBar.foreground": "#27212e",
+        "statusBar.debuggingBackground": "#74dfc4",
+
         "editorGroupHeader.tabsBackground": "#242029",
+
         "tab.activeBorder": "#EB64B9",
         "tab.inactiveBackground": "#242029",
+
         "editor.wordHighlightBackground": "#eb64ba27",
         "editor.selectionBackground":"#eb64ba27",
         "editor.findMatchBackground":"#40b4c433",
         "editor.findMatchHighlightBackground":"#40b4c427",
+
         "gitDecoration.modifiedResourceForeground": "#74dfc4",
         "gitDecoration.untrackedResourceForeground": "#40b4c4",
         "gitDecoration.conflictingResourceForeground": "#EB64B9",
         "gitDecoration.deletedResourceForeground": "#b381c5",
         "gitDecoration.ignoredResourceForeground": "#4e415c",
+
         "button.background": "#EB64B9",
+
         "progressBar.background": "#40b4c4",
+
         "merge.currentHeaderBackground": "#74dfc4cc",
         "merge.currentContentBackground": "#74dfc433",
         "merge.incomingHeaderBackground": "#40b4c4cc",
         "merge.incomingContentBackground": "#40b4c433",
+        
         "notifications.background": "#3e3549",
 
         "terminal.ansiBlue": "#40b4c4",
@@ -38,7 +52,20 @@
         "terminal.ansiGreen": "#74dfc4",
         "terminal.ansiMagenta": "#b381c5",
         "terminal.ansiRed": "#EB64B9",
-        "terminal.ansiYellow": "#ffe261"
+        "terminal.ansiYellow": "#ffe261",
+
+        "input.background": "#3a3242",
+        "input.border": "#EB64B9",
+        "inputOption.activeBorder": "#EB64B9",
+
+        "list.activeSelectionBackground": "#EB64B9CC",
+        "list.hoverBackground": "#EB64B9AA",
+        "list.hoverForeground": "#fff",
+        "list.inactiveSelectionBackground": "#EB64B9AA",
+        "list.inactiveSelectionForeground": "#fff",
+        "list.dropBackground": "#74dfc466",
+        "list.invalidItemForeground": "#fff",
+        "tree.indentGuidesStroke": "#ffffff33"
     },
     "tokenColors": [
         {

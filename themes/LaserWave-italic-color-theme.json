@@ -38,7 +38,20 @@
         "terminal.ansiGreen": "#74dfc4",
         "terminal.ansiMagenta": "#b381c5",
         "terminal.ansiRed": "#EB64B9",
-        "terminal.ansiYellow": "#ffe261"
+        "terminal.ansiYellow": "#ffe261",
+
+        "input.background": "#3a3242",
+        "input.border": "#EB64B9",
+        "inputOption.activeBorder": "#EB64B9",
+
+        "list.activeSelectionBackground": "#EB64B9CC",
+        "list.hoverBackground": "#EB64B9AA",
+        "list.hoverForeground": "#fff",
+        "list.inactiveSelectionBackground": "#EB64B9AA",
+        "list.inactiveSelectionForeground": "#fff",
+        "list.dropBackground": "#74dfc466",
+        "list.invalidItemForeground": "#fff",
+        "tree.indentGuidesStroke": "#ffffff33"
     },
     "tokenColors": [
         {
