@@ -1,6 +1,8 @@
 {
     "name": "LaserWave",
     "colors": {
+        "focusBorder": "#40b4c4",
+
         "editor.foreground": "#ffffff",
         "editor.background": "#27212e",
 
