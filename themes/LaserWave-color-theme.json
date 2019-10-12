@@ -27,10 +27,8 @@
         "tab.activeBorder": "#EB64B9",
         "tab.inactiveBackground": "#242029",
 
-        "editor.wordHighlightBackground": "#eb64ba27",
-        "editor.selectionBackground":"#eb64ba27",
-        "editor.findMatchBackground":"#40b4c433",
-        "editor.findMatchHighlightBackground":"#40b4c427",
+        "editor.wordHighlightBackground": "#eb64b927",
+        "editor.selectionBackground":"#eb64b927",
 
         "gitDecoration.modifiedResourceForeground": "#74dfc4",
         "gitDecoration.untrackedResourceForeground": "#40b4c4",
