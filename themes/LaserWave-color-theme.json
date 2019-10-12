@@ -73,6 +73,10 @@
         "list.focusBackground": "#91889b80",
 
         "tree.indentGuidesStroke": "#ffffff33",
+
+        "diffEditor.border": "#b4dce7",
+        "diffEditor.removedTextBackground": "#eb64b940",
+        "diffEditor.insertedTextBackground": "#74dfc440",
     },
     "tokenColors": [
         {
