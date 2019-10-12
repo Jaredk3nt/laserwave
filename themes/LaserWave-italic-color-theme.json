@@ -55,7 +55,10 @@
         "list.inactiveSelectionForeground": "#ddd",
         "list.dropBackground": "#74dfc466",
         "list.invalidItemForeground": "#fff",
-        "tree.indentGuidesStroke": "#ffffff33"
+        "list.highlightForeground": "#eb64b9",
+        "list.focusBackground": "#91889b80",
+
+        "tree.indentGuidesStroke": "#ffffff33",
     },
     "tokenColors": [
         {
