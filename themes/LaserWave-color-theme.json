@@ -83,6 +83,8 @@
         "peekViewResult.matchHighlightBackground": "#27212e",
         "peekViewEditor.matchHighlightBackground": "#27212e",
         "peekViewResult.selectionBackground": "#40b4c43f",
+
+        "titleBar.inactiveBackground": "#27212e"
     },
     "tokenColors": [
         {
