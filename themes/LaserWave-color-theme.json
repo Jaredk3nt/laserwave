@@ -9,12 +9,12 @@
         "titleBar.activeBackground": "#27212e",
 
         "sideBar.background": "#27212e",
-        "sideBar.foreground": "#fff",
+        "sideBar.foreground": "#ddd",
         "sideBarSectionHeader.background": "#27212e",
         "sideBarTitle.foreground": "#EB64B9",
 
         "activityBar.background": "#27212e",
-        "activityBar.foreground": "#fff",
+        "activityBar.foreground": "#ddd",
         "activityBarBadge.background": "#EB64B9",
 
         "statusBar.background": "#EB64B9",
@@ -60,11 +60,8 @@
         "input.border": "#EB64B9",
         "inputOption.activeBorder": "#EB64B9",
 
-        "list.activeSelectionBackground": "#EB64B9CC",
-        "list.hoverBackground": "#EB64B9AA",
-        "list.hoverForeground": "#fff",
-        "list.inactiveSelectionBackground": "#EB64B9AA",
-        "list.inactiveSelectionForeground": "#fff",
+        "list.activeSelectionForeground": "#eee",
+        "list.inactiveSelectionForeground": "#ddd",
         "list.dropBackground": "#74dfc466",
         "list.invalidItemForeground": "#fff",
         "tree.indentGuidesStroke": "#ffffff33"
