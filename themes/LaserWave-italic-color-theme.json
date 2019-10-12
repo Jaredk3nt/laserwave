@@ -47,8 +47,11 @@
         "input.border": "#EB64B9",
         "inputOption.activeBorder": "#EB64B9",
 
+        "list.activeSelectionBackground": "#EB64B98f",
         "list.activeSelectionForeground": "#eee",
+        "list.hoverBackground": "#EB64B98f",
         "list.hoverForeground": "#eee",
+        "list.inactiveSelectionBackground": "#EB64B98f",
         "list.inactiveSelectionForeground": "#ddd",
         "list.dropBackground": "#74dfc466",
         "list.invalidItemForeground": "#fff",
