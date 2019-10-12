@@ -20,6 +20,8 @@
         "tab.inactiveBackground": "#242029",
         "editor.wordHighlightBackground": "#eb64b927",
         "editor.selectionBackground":"#eb64b927",
+        "editor.findMatchBackground":"#40b4c48c",
+        "editor.findMatchHighlightBackground":"#40b4c460",
         "gitDecoration.modifiedResourceForeground": "#74dfc4",
         "gitDecoration.untrackedResourceForeground": "#40b4c4",
         "gitDecoration.conflictingResourceForeground": "#EB64B9",
