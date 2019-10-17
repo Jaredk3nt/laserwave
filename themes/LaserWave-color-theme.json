@@ -78,10 +78,10 @@
         "diffEditor.removedTextBackground": "#eb64b940",
         "diffEditor.insertedTextBackground": "#74dfc440",
 
-        "peekViewEditor.background": "#40b4c43f",
+        "peekViewEditor.background": "#40b5c449",
         "peekView.border": "#40b4c4",
         "peekViewResult.matchHighlightBackground": "#27212e",
-        "peekViewEditor.matchHighlightBackground": "#27212e",
+        "peekViewEditor.matchHighlightBackground": "#40b5c460",
         "peekViewResult.selectionBackground": "#40b4c43f",
 
         "titleBar.inactiveBackground": "#27212e"
