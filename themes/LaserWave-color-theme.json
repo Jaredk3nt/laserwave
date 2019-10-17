@@ -63,7 +63,7 @@
 
         "list.activeSelectionBackground": "#eb64b98f",
         "list.activeSelectionForeground": "#eee",
-        "list.hoverBackground": "#EB64B98f",
+        "list.hoverBackground": "#eb64ba60",
         "list.hoverForeground": "#eee",
         "list.inactiveSelectionBackground": "#eb64b98f",
         "list.inactiveSelectionForeground": "#ddd",
