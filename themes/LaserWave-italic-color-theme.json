@@ -1,7 +1,7 @@
 {
     "name": "LaserWave",
     "colors": {
-        "focusBorder": "#40b4c4",
+        "focusBorder": "#EB64B9",
         "editor.foreground": "#fff",
         "editor.background": "#27212e",
         "titleBar.activeBackground": "#27212e",
@@ -44,7 +44,7 @@
         "terminal.ansiYellow": "#ffe261",
 
         "input.background": "#3a3242",
-        "input.border": "#EB64B9",
+        "input.border": "#964c7b",
         "inputOption.activeBorder": "#EB64B9",
 
         "list.activeSelectionBackground": "#EB64B98f",
