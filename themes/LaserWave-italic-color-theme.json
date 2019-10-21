@@ -1,14 +1,16 @@
 {
     "name": "LaserWave",
     "colors": {
+        "focusBorder": "#EB64B9",
         "editor.foreground": "#fff",
         "editor.background": "#27212e",
         "titleBar.activeBackground": "#27212e",
         "sideBar.background": "#27212e",
+        "sideBar.foreground": "#ddd",
         "sideBarSectionHeader.background": "#27212e",
         "sideBarTitle.foreground": "#EB64B9",
         "activityBar.background": "#27212e",
-        "activityBar.foreground": "#fff",
+        "activityBar.foreground": "#ddd",
         "activityBarBadge.background": "#EB64B9",
         "statusBar.background": "#EB64B9",
         "statusBar.noFolderBackground": "#EB64B9",
@@ -16,10 +18,11 @@
         "editorGroupHeader.tabsBackground": "#242029",
         "tab.activeBorder": "#EB64B9",
         "tab.inactiveBackground": "#242029",
-        "editor.wordHighlightBackground": "#eb64ba27",
-        "editor.selectionBackground":"#eb64ba27",
-        "editor.findMatchBackground":"#40b4c433",
-        "editor.findMatchHighlightBackground":"#40b4c427",
+        "editor.wordHighlightBackground": "#eb64b927",
+        "editor.selectionBackground":"#eb64b927",
+        "editor.findMatchBackground":"#40b4c48c",
+        "editor.findMatchHighlightBackground":"#40b4c460",
+        "editorSuggestWidget.border": "#b4dce7",
         "gitDecoration.modifiedResourceForeground": "#74dfc4",
         "gitDecoration.untrackedResourceForeground": "#40b4c4",
         "gitDecoration.conflictingResourceForeground": "#EB64B9",
@@ -41,17 +44,33 @@
         "terminal.ansiYellow": "#ffe261",
 
         "input.background": "#3a3242",
-        "input.border": "#EB64B9",
+        "input.border": "#964c7b",
         "inputOption.activeBorder": "#EB64B9",
 
-        "list.activeSelectionBackground": "#EB64B9CC",
-        "list.hoverBackground": "#EB64B9AA",
-        "list.hoverForeground": "#fff",
-        "list.inactiveSelectionBackground": "#EB64B9AA",
-        "list.inactiveSelectionForeground": "#fff",
+        "list.activeSelectionBackground": "#EB64B98f",
+        "list.activeSelectionForeground": "#eee",
+        "list.hoverBackground": "#eb64ba60",
+        "list.hoverForeground": "#eee",
+        "list.inactiveSelectionBackground": "#EB64B98f",
+        "list.inactiveSelectionForeground": "#ddd",
         "list.dropBackground": "#74dfc466",
         "list.invalidItemForeground": "#fff",
-        "tree.indentGuidesStroke": "#ffffff33"
+        "list.highlightForeground": "#eb64b9",
+        "list.focusBackground": "#91889b80",
+
+        "tree.indentGuidesStroke": "#ffffff33",
+
+        "diffEditor.border": "#b4dce7",
+        "diffEditor.removedTextBackground": "#eb64b940",
+        "diffEditor.insertedTextBackground": "#74dfc440",
+
+        "peekViewEditor.background": "#40b5c449",
+        "peekView.border": "#40b4c4",
+        "peekViewResult.matchHighlightBackground": "#27212e",
+        "peekViewEditor.matchHighlightBackground": "#40b5c460",
+        "peekViewResult.selectionBackground": "#40b4c43f",
+
+        "titleBar.inactiveBackground": "#27212e"
     },
     "tokenColors": [
         {
