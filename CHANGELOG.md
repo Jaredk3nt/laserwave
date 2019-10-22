@@ -4,6 +4,14 @@ All notable changes to the "laserwave" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.5
+
+- Editor coloring thanks to @TGiles
+  - Updated input borders
+  - Updated sidebar coloring
+  - Updated highlight coloring
+  - Updated diff & peek colors
+
 ## 1.2.4
 
 - Adding correct list active & hover colors
