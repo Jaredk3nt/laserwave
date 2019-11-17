@@ -62,7 +62,7 @@
 
         "diffEditor.border": "#b4dce7",
         "diffEditor.removedTextBackground": "#eb64b940",
-        "diffEditor.insertedTextBackground": "#74dfc440",
+        "diffEditor.insertedTextBackground": "#40b5c41d",
 
         "peekViewEditor.background": "#40b5c449",
         "peekView.border": "#40b4c4",
