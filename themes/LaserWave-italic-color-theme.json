@@ -21,6 +21,7 @@
         "tab.inactiveBackground": "#242029",
         "editor.wordHighlightBackground": "#eb64b927",
         "editor.selectionBackground":"#eb64b927",
+        "editor.selectionHighlightBackground": "#eb64b927",
         "editor.findMatchBackground":"#40b4c48c",
         "editor.findMatchHighlightBackground":"#40b4c460",
         "editorSuggestWidget.border": "#b4dce7",
