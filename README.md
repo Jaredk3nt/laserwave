@@ -46,6 +46,10 @@ Italics include:
 
 I'm actively supporting this theme so if you open an issue I will respond 😁! If you would like to contribute to the project that is awesome, just please check out the contribution guidelines in the wiki before submitting a PR.
 
+### Supporters
+
+- Bryan Phelps
+
 ### Contributors
 
 A special shoutout to the contributors who have helped make LaserWave even better!
@@ -53,3 +57,5 @@ A special shoutout to the contributors who have helped make LaserWave even bette
 - @TGiles
 - @cameronstinson4
 - @lcatania
+- @wbeeftink
+- @hatched
