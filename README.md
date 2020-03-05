@@ -1,5 +1,7 @@
 # LaserWave
 
+<a href="https://www.patreon.com/danggoodcode"><img src="https://img.shields.io/badge/Patreon-Support%20my%20work-orange?style=for-the-badge&logo=patreon"/></a>
+
 An clean 80's synthwave / outrun inspired theme for Visual Studio Code.
 
 ![screenshot](screenshot.png)
@@ -43,3 +45,17 @@ Italics include:
 ## Contributing to LaserWave
 
 I'm actively supporting this theme so if you open an issue I will respond 😁! If you would like to contribute to the project that is awesome, just please check out the contribution guidelines in the wiki before submitting a PR.
+
+### Supporters
+
+- Bryan Phelps
+
+### Contributors
+
+A special shoutout to the contributors who have helped make LaserWave even better!
+
+- @TGiles
+- @cameronstinson4
+- @lcatania
+- @wbeeftink
+- @hatched
