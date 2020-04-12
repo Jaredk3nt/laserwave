@@ -115,7 +115,8 @@
                 "storage.modifier.cs",
                 "keyword.package.go",
                 "keyword.import.go",
-                "storage.modifier.js"
+                "storage.modifier.js",
+                "storage.modifier.implements.java"
             ],
             "settings": {
                 "foreground": "#40b4c4",
