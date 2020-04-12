@@ -246,6 +246,7 @@
                 "punctuation.section.braces.end.powershell",
                 "punctuation.section.group.begin.powershell",
                 "punctuation.section.group.end.powershell",
+                "meta.brace.round.tsx"
             ],
             "settings": {
                 "foreground": "#716385"
@@ -259,6 +260,8 @@
                 "keyword.operator.assignment",
                 "keyword.operator.logical",
                 "storage.type.function.arrow.js",
+                "storage.type.function.arrow.ts",
+                "storage.type.function.arrow.tsx",
                 "keyword.operator.relational.js",
                 "keyword.operator.ternary.js",
                 "keyword.operator.arithmetic.js",
@@ -269,7 +272,6 @@
                 "keyword.operator.arithmetic.python",
                 "keyword.operator.logical.python",
                 "punctuation.accessor.ts",
-                "storage.type.function.arrow.ts",
                 "entity.name.type.ts",
                 "keyword.operator.increment.ts",
                 "keyword.operator.increment.js",
@@ -392,12 +394,13 @@
             "name": "Types",
             "scope": [
                 "keyword.type.js",
+                "storage.type",
                 "storage.type.js",
                 "storage.type.ts",
-                "storage.type",
                 "storage.modifier.ts",
                 "keyword.operator.new.ts",
                 "meta.type.annotation.ts",
+                "meta.type.annotation.tsx",
                 "punctuation.definition.variable.ruby",
                 "punctuation.definition.constant.ruby",
                 "keyword.type.cs",

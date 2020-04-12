@@ -2,11 +2,26 @@
 
 All notable changes to the "laserwave" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.2.9
+
+- Fixes Java `implements` keyword
+
+## 1.2.8
+
+- TSX improvements
+
+## 1.2.7
+
+- Update highlight color **thanks to @hatched**
+
+## 1.2.6
+
+- Updating diff color to improve legibility **thanks to @TGiles**
+- Updating debugging statusbar color **thanks to @wbeeftink**
 
 ## 1.2.5
 
-- Editor coloring thanks to @TGiles
+- Editor coloring **thanks to @TGiles**
   - Updated input borders
   - Updated sidebar coloring
   - Updated highlight coloring
