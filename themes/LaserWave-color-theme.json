@@ -2,66 +2,50 @@
     "name": "LaserWave",
     "colors": {
         "focusBorder": "#EB64B9",
-
         "editor.foreground": "#ffffff",
         "editor.background": "#27212e",
-
         "titleBar.activeBackground": "#27212e",
-
         "sideBar.background": "#27212e",
         "sideBar.foreground": "#ddd",
         "sideBarSectionHeader.background": "#27212e",
         "sideBarTitle.foreground": "#EB64B9",
-
         "activityBar.background": "#27212e",
         "activityBar.foreground": "#ddd",
         "activityBarBadge.background": "#EB64B9",
-
         "statusBar.background": "#EB64B9",
         "statusBar.noFolderBackground": "#EB64B9",
         "statusBar.foreground": "#27212e",
         "statusBar.debuggingBackground": "#74dfc4",
-
         "editorGroupHeader.tabsBackground": "#242029",
-
         "tab.activeBorder": "#EB64B9",
         "tab.inactiveBackground": "#242029",
-
         "editor.wordHighlightBackground": "#eb64b927",
-        "editor.selectionBackground":"#eb64b927",
+        "editor.selectionBackground": "#eb64b927",
         "editor.selectionHighlightBackground": "#eb64b927",
-        "editor.findMatchBackground":"#40b4c48c",
-        "editor.findMatchHighlightBackground":"#40b4c460",
+        "editor.findMatchBackground": "#40b4c48c",
+        "editor.findMatchHighlightBackground": "#40b4c460",
         "editorSuggestWidget.border": "#b4dce7",
-
         "gitDecoration.modifiedResourceForeground": "#74dfc4",
         "gitDecoration.untrackedResourceForeground": "#40b4c4",
         "gitDecoration.conflictingResourceForeground": "#EB64B9",
         "gitDecoration.deletedResourceForeground": "#b381c5",
         "gitDecoration.ignoredResourceForeground": "#4e415c",
-
         "button.background": "#EB64B9",
-
         "progressBar.background": "#40b4c4",
-
         "merge.currentHeaderBackground": "#74dfc4cc",
         "merge.currentContentBackground": "#74dfc433",
         "merge.incomingHeaderBackground": "#40b4c4cc",
         "merge.incomingContentBackground": "#40b4c433",
-
         "notifications.background": "#3e3549",
-
         "terminal.ansiBlue": "#40b4c4",
         "terminal.ansiCyan": "#b4dce7",
         "terminal.ansiGreen": "#74dfc4",
         "terminal.ansiMagenta": "#b381c5",
         "terminal.ansiRed": "#EB64B9",
         "terminal.ansiYellow": "#ffe261",
-
         "input.background": "#3a3242",
         "input.border": "#964c7b",
         "inputOption.activeBorder": "#EB64B9",
-
         "list.activeSelectionBackground": "#eb64b98f",
         "list.activeSelectionForeground": "#eee",
         "list.hoverBackground": "#eb64ba60",
@@ -72,19 +56,15 @@
         "list.invalidItemForeground": "#fff",
         "list.highlightForeground": "#eb64b9",
         "list.focusBackground": "#91889b80",
-
         "tree.indentGuidesStroke": "#ffffff33",
-
         "diffEditor.border": "#b4dce7",
         "diffEditor.removedTextBackground": "#eb64b940",
         "diffEditor.insertedTextBackground": "#40b5c41d",
-
         "peekViewEditor.background": "#40b5c449",
         "peekView.border": "#40b4c4",
         "peekViewResult.matchHighlightBackground": "#27212e",
         "peekViewEditor.matchHighlightBackground": "#40b5c460",
         "peekViewResult.selectionBackground": "#40b4c43f",
-
         "titleBar.inactiveBackground": "#27212e"
     },
     "tokenColors": [
@@ -125,11 +105,13 @@
                 "keyword.other.package.java",
                 "storage.modifier.java",
                 "storage.modifier.extends.java",
+                "storage.modifier.implements.java",
                 "storage.modifier.cs",
-                "keyword.package.go",
-                "keyword.import.go",
                 "storage.modifier.js",
-                "storage.modifier.implements.java"
+                "storage.modifier.dart",
+                "keyword.declaration.dart",
+                "keyword.package.go",
+                "keyword.import.go"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -246,7 +228,8 @@
                 "punctuation.section.braces.end.powershell",
                 "punctuation.section.group.begin.powershell",
                 "punctuation.section.group.end.powershell",
-                "meta.brace.round.tsx"
+                "meta.brace.round.tsx",
+                "punctuation.comma.dart"
             ],
             "settings": {
                 "foreground": "#716385"
@@ -284,7 +267,8 @@
                 "punctuation.accessor.cs",
                 "punctuation.separator.java",
                 "punctuation.separator.period.java",
-                "punctuation.other.period.go"
+                "punctuation.other.period.go",
+                "punctuation.dot.dart",
             ],
             "settings": {
                 "foreground": "#74dfc4"
@@ -365,7 +349,8 @@
                 "variable.language.self.ruby",
                 "variable.other.constant.ruby",
                 "constant.other.elm",
-                "support.constant.automatic.powershell"
+                "support.constant.automatic.powershell",
+                "variable.language.dart"
             ],
             "settings": {
                 "foreground": "#ffe261"
@@ -384,7 +369,10 @@
                 "support.function.console.ts",
                 "support.variable.property.dom.ts",
                 "variable.scss",
-                "variable.other.readwrite.powershell"
+                "variable.other.readwrite.powershell",
+                "variable.parameter.dart",
+                "variable.name.source.dart",
+                "variable.other.source.dart"
             ],
             "settings": {
                 "foreground": "#fff"
@@ -409,7 +397,8 @@
                 "keyword.type.go",
                 "keyword.function.go",
                 "keyword.struct.go",
-                "storage.modifier.async.js"
+                "storage.modifier.async.js",
+                "support.class.dart"
             ],
             "settings": {
                 "foreground": "#a96bc0"
@@ -422,7 +411,7 @@
                 "markup.italic"
             ],
             "settings": {
-                "foreground":"#EB64B9"
+                "foreground": "#EB64B9"
             }
         },
         {
@@ -437,9 +426,7 @@
         },
         {
             "name": "Orange",
-            "scope": [
-
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#ffb85b"
             }
