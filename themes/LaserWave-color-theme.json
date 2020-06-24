@@ -11,6 +11,7 @@
         "sideBarTitle.foreground": "#EB64B9",
         "activityBar.background": "#27212e",
         "activityBar.foreground": "#ddd",
+        "activityBar.activeBorder": "#EB64B9",
         "activityBarBadge.background": "#EB64B9",
         "statusBar.background": "#EB64B9",
         "statusBar.noFolderBackground": "#EB64B9",
