@@ -379,6 +379,16 @@
             }
         },
         {
+            "name": "annotations",
+            "settings": {
+                "foreground": "#74dfc4",
+            },
+            "scope": [
+                "storage.type.annotation",
+                "punctuation.definition.annotation"
+            ]
+        },
+        {
             "name": "Types",
             "scope": [
                 "keyword.type.js",
