@@ -60,3 +60,4 @@ A special shoutout to the contributors who have helped make LaserWave even bette
 - @lcatania
 - @wbeeftink
 - @hatched
+- @axel-op
