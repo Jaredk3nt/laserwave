@@ -7,15 +7,17 @@ An clean 80's synthwave / outrun inspired theme for Visual Studio Code.
 ** *LaserWave Italic* -- now avaliable **
 
 **Currently supports:**
+
 - Python
 - Javascript
-    - React
+  - React
 - Typescript
-    - Angular
+  - Angular
 - Ruby
 - Markdown
 - Java
 - C#
+- Dart
 
 If you find any missing highlighting or want a new language supported open an issue with an example file from the language and I will get right on it 😀
 
@@ -34,11 +36,12 @@ If you find any missing highlighting or want a new language supported open an is
 | White | #ffffff | normal | Variables |
 | Raisin Black | #27212e | --- | Background |
 
-#### *LaserWave Italic*
+### *LaserWave Italic*
 
 Italics include:
-  - Keywords
-  - Attributes
+
+- Keywords
+- Attributes
 
 ## Contributing to LaserWave
 
