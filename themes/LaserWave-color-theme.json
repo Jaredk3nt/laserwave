@@ -2,6 +2,7 @@
     "name": "LaserWave",
     "colors": {
         "focusBorder": "#EB64B9",
+        "menu.background": "#27212e",
         "editor.foreground": "#ffffff",
         "editor.background": "#27212e",
         "titleBar.activeBackground": "#27212e",
