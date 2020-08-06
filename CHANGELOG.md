@@ -2,6 +2,12 @@
 
 All notable changes to the "laserwave" extension will be documented in this file.
 
+## 1.2.11
+
+- Setting activity bar color to "Hot Pink"
+- Setting menu background to "Raisin Black"
+- **thanks to @axel-op**
+
 ## 1.2.10
 
 - Addition of Dart language themeing
