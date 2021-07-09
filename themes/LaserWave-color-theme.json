@@ -31,7 +31,7 @@
         "gitDecoration.untrackedResourceForeground": "#40b4c4",
         "gitDecoration.conflictingResourceForeground": "#EB64B9",
         "gitDecoration.deletedResourceForeground": "#b381c5",
-        "gitDecoration.ignoredResourceForeground": "#4e415c",
+        "gitDecoration.ignoredResourceForeground": "#92889d",
         "button.background": "#EB64B9",
         "progressBar.background": "#40b4c4",
         "merge.currentHeaderBackground": "#74dfc4cc",
@@ -58,6 +58,7 @@
         "list.invalidItemForeground": "#fff",
         "list.highlightForeground": "#eb64b9",
         "list.focusBackground": "#eb64ba60",
+        "list.errorForeground": "#ff3e7b",
         "tree.indentGuidesStroke": "#ffffff33",
         "diffEditor.border": "#b4dce7",
         "diffEditor.removedTextBackground": "#eb64b940",
@@ -67,7 +68,8 @@
         "peekViewResult.matchHighlightBackground": "#27212e",
         "peekViewEditor.matchHighlightBackground": "#40b5c460",
         "peekViewResult.selectionBackground": "#40b4c43f",
-        "titleBar.inactiveBackground": "#27212e"
+        "titleBar.inactiveBackground": "#27212e",
+        "editorError.foreground": "#ff3e7b"
     },
     "tokenColors": [
         {
@@ -234,7 +236,7 @@
                 "punctuation.comma.dart"
             ],
             "settings": {
-                "foreground": "#716385"
+                "foreground": "#7b6995"
             }
         },
         {

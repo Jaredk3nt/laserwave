@@ -2,6 +2,11 @@
 
 All notable changes to the "laserwave" extension will be documented in this file.
 
+## 1.3.0
+
+- **LaserWave High Contrast** now available
+- Added new error underline color 
+
 ## 1.2.11
 
 - Setting activity bar color to "Hot Pink"
