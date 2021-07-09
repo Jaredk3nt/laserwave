@@ -115,7 +115,8 @@
                 "storage.modifier.dart",
                 "keyword.declaration.dart",
                 "keyword.package.go",
-                "keyword.import.go"
+                "keyword.import.go",
+                "keyword.fsharp"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -135,7 +136,8 @@
                 "support.function.go",
                 "support.function.console.js",
                 "support.function.dom.js",
-                "support.function"
+                "support.function",
+                "binding.fsharp"
             ],
             "settings": {
                 "foreground": "#EB64B9"
@@ -273,6 +275,7 @@
                 "punctuation.separator.period.java",
                 "punctuation.other.period.go",
                 "punctuation.dot.dart",
+                "keyword.symbol.fsharp"
             ],
             "settings": {
                 "foreground": "#74dfc4"
@@ -280,10 +283,7 @@
         },
         {
             "name": "comment",
-            "scope": [
-                "comment",
-                "punctuation.definition.comment"
-            ],
+            "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
                 "foreground": "#91889b"
             }
@@ -325,7 +325,8 @@
                 "variable.other.property.js",
                 "variable.other.property.ts",
                 "support.variable.property.dom.js",
-                "support.variable.property.js"
+                "support.variable.property.js",
+                "variable.parameter.fsharp"
             ],
             "settings": {
                 "foreground": "#40b4c4"
@@ -354,7 +355,8 @@
                 "variable.other.constant.ruby",
                 "constant.other.elm",
                 "support.constant.automatic.powershell",
-                "variable.language.dart"
+                "variable.language.dart",
+                "entity.name.section.fsharp"
             ],
             "settings": {
                 "foreground": "#ffe261"
@@ -384,13 +386,14 @@
         },
         {
             "name": "annotations",
-            "settings": {
-                "foreground": "#74dfc4",
-            },
             "scope": [
                 "storage.type.annotation",
-                "punctuation.definition.annotation"
-            ]
+                "punctuation.definition.annotation",
+                "support.function.attribute.fsharp"
+            ],
+            "settings": {
+                "foreground": "#74dfc4"
+            }
         },
         {
             "name": "Types",
@@ -412,7 +415,8 @@
                 "keyword.function.go",
                 "keyword.struct.go",
                 "storage.modifier.async.js",
-                "support.class.dart"
+                "support.class.dart",
+                "entity.name.type.fsharp"
             ],
             "settings": {
                 "foreground": "#a96bc0"
@@ -420,10 +424,7 @@
         },
         {
             "name": "Highlights",
-            "scope": [
-                "markup.bold",
-                "markup.italic"
-            ],
+            "scope": ["markup.bold", "markup.italic"],
             "settings": {
                 "foreground": "#EB64B9"
             }
