@@ -114,7 +114,9 @@
               "storage.modifier.dart",
               "keyword.declaration.dart",
               "keyword.package.go",
-              "keyword.import.go"
+              "keyword.import.go",
+              "keyword.fsharp",
+              "binding.fsharp"
           ],
           "settings": {
               "foreground": "#1ed3ec"
@@ -271,7 +273,8 @@
               "punctuation.separator.java",
               "punctuation.separator.period.java",
               "punctuation.other.period.go",
-              "punctuation.dot.dart"
+              "punctuation.dot.dart",
+              "keyword.symbol.fsharp"
           ],
           "settings": {
               "foreground": "#3feabf"
@@ -324,7 +327,8 @@
               "variable.other.property.js",
               "variable.other.property.ts",
               "support.variable.property.dom.js",
-              "support.variable.property.js"
+              "support.variable.property.js",
+              "variable.parameter.fsharp"
           ],
           "settings": {
               "foreground": "#1ed3ec"
@@ -353,7 +357,8 @@
               "variable.other.constant.ruby",
               "constant.other.elm",
               "support.constant.automatic.powershell",
-              "variable.language.dart"
+              "variable.language.dart",
+              "entity.name.section.fsharp"
           ],
           "settings": {
               "foreground": "#ffe261"
@@ -388,7 +393,8 @@
           },
           "scope": [
               "storage.type.annotation",
-              "punctuation.definition.annotation"
+              "punctuation.definition.annotation",
+              "support.function.attribute.fsharp"
           ]
       },
       {
@@ -411,7 +417,8 @@
               "keyword.function.go",
               "keyword.struct.go",
               "storage.modifier.async.js",
-              "support.class.dart"
+              "support.class.dart",
+              "entity.name.type.fsharp"
           ],
           "settings": {
               "foreground": "#d887f5"
