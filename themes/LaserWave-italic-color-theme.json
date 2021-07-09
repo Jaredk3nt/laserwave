@@ -45,7 +45,8 @@
                 "storage.modifier.dart",
                 "keyword.declaration.dart",
                 "keyword.package.go",
-                "keyword.import.go"
+                "keyword.import.go",
+                "keyword.fsharp"
             ],
             "settings": {
                 "foreground": "#40b4c4",
