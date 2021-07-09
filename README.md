@@ -4,7 +4,9 @@ An clean 80's synthwave / outrun inspired theme for Visual Studio Code.
 
 ![screenshot](screenshot.png)
 
-** *LaserWave Italic* -- now avaliable **
+** **LaserWave High Contrast** -- now avaliable **
+
+** **LaserWave Italic** -- now avaliable **
 
 **Currently supports:**
 
@@ -45,7 +47,7 @@ Italics include:
 
 ## Contributing to LaserWave
 
-I'm actively supporting this theme so if you open an issue I will respond 😁! If you would like to contribute to the project that is awesome, just please check out the contribution guidelines in the wiki before submitting a PR.
+I am not the fastest responder, but I am try to get better at being active maintaining this 😁! If you would like to contribute to the project that is awesome. Please open an issue first with your suggestions or requests before putting in the work. For Pull Requests please include a description of all changes made and a screenshot of the changes 👍
 
 ### Supporters
 

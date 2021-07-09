@@ -5,7 +5,8 @@ All notable changes to the "laserwave" extension will be documented in this file
 ## 1.3.0
 
 - **LaserWave High Contrast** now available
-- Added new error underline color 
+- Contrast tweaks to LaserWave and LaserWave Italic, and new error underline color 
+- FSharp support **thanks to @Deide**
 
 ## 1.2.11
 
