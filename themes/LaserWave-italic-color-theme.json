@@ -1,72 +1,73 @@
 {
-    "name": "LaserWave",
-    "include": "./LaserWave-color-theme.json",
-    "tokenColors": [
-        {
-            "name": "keyword italics",
-            "scope": [
-                "keyword.control",
-                "keyword.other",
-                "keyword.control.module.js",
-                "storage.type.class.js",
-                "storage.type.extends.js",
-                "variable.language.this.js",
-                "keyword.control.switch.js",
-                "keyword.control.loop.js",
-                "keyword.control.conditional.js",
-                "keyword.control.flow.js",
-                "keyword.operator.accessor.js",
-                "keyword.other.important.css",
-                "keyword.control.at-rule.media.scss",
-                "entity.name.tag.reference.scss",
-                "meta.class.python",
-                "storage.type.function.python",
-                "keyword.control.flow.python",
-                "storage.type.function.js",
-                "keyword.control.export.ts",
-                "keyword.control.flow.ts",
-                "keyword.control.from.ts",
-                "keyword.control.import.ts",
-                "storage.type.class.ts",
-                "keyword.control.loop.ts",
-                "keyword.control.ruby",
-                "keyword.control.module.ruby",
-                "keyword.control.class.ruby",
-                "keyword.other.special-method.ruby",
-                "keyword.control.def.ruby",
-                "markup.heading",
-                "keyword.other.import.java",
-                "keyword.other.package.java",
-                "storage.modifier.java",
-                "storage.modifier.extends.java",
-                "storage.modifier.implements.java",
-                "storage.modifier.cs",
-                "storage.modifier.js",
-                "storage.modifier.dart",
-                "keyword.declaration.dart",
-                "keyword.package.go",
-                "keyword.import.go",
-                "keyword.fsharp"
-            ],
-            "settings": {
-                "foreground": "#40b4c4",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "attributes",
-            "scope": [
-                "entity.other.attribute-name",
-                "entity.other.attribute-name.jsx",
-                "entity.other.attribute-name.id.html",
-                "entity.other.attribute-name.html",
-                "entity.other.attribute-name.id.css",
-                "entity.other.attribute-name.class.css"
-            ],
-            "settings": {
-                "foreground": "#EB64B9",
-                "fontStyle": "italic"
-            }
-        }
-    ]
+  "name": "LaserWave",
+  "include": "./LaserWave-color-theme.json",
+  "tokenColors": [
+    {
+      "name": "keyword italics",
+      "scope": [
+        "keyword.other",
+        "keyword.control",
+        "storage.type.class.js",
+        "keyword.control.module.js",
+        "storage.type.extends.js",
+        "variable.language.this.js",
+        "keyword.control.switch.js",
+        "keyword.control.loop.js",
+        "keyword.control.conditional.js",
+        "keyword.control.flow.js",
+        "keyword.operator.accessor.js",
+        "keyword.other.important.css",
+        "keyword.control.at-rule.media.scss",
+        "entity.name.tag.reference.scss",
+        "meta.class.python",
+        "storage.type.function.python",
+        "keyword.control.flow.python",
+        "storage.type.function.js",
+        "keyword.control.export.ts",
+        "keyword.control.flow.ts",
+        "keyword.control.from.ts",
+        "keyword.control.import.ts",
+        "storage.type.class.ts",
+        "keyword.control.loop.ts",
+        "keyword.control.ruby",
+        "keyword.control.module.ruby",
+        "keyword.control.class.ruby",
+        "keyword.other.special-method.ruby",
+        "keyword.control.def.ruby",
+        "markup.heading",
+        "keyword.other.import.java",
+        "keyword.other.package.java",
+        "storage.modifier.java",
+        "storage.modifier.extends.java",
+        "storage.modifier.implements.java",
+        "storage.modifier.cs",
+        "storage.modifier.js",
+        "storage.modifier.dart",
+        "keyword.declaration.dart",
+        "keyword.package.go",
+        "keyword.import.go",
+        "keyword.fsharp",
+        "variable.parameter.function-call.python"
+      ],
+      "settings": {
+        "foreground": "#40b4c4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "attributes",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.id.css",
+        "entity.other.attribute-name.id.html",
+        "entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "foreground": "#EB64B9",
+        "fontStyle": "italic"
+      }
+    }
+  ]
 }

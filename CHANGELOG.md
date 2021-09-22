@@ -2,6 +2,11 @@
 
 All notable changes to the "laserwave" extension will be documented in this file.
 
+## 1.3.1
+
+- Improved Python, C, and C++ support
+- Theme cleanup
+
 ## 1.3.0
 
 - **LaserWave High Contrast** now available
