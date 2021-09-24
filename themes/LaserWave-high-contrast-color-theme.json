@@ -456,6 +456,49 @@
       "settings": {
         "foreground": "#ffb85b"
       }
-    }
+    },
+    {
+      "name": "diff.header",
+      "scope": [
+        "meta.diff",
+        "meta.diff.header"
+      ],
+      "settings": {
+        "foreground": "#3feabf",
+      }
+    },
+    {
+      "name": "diff.range",
+      "scope": [
+        "meta.diff.range.unified"
+      ],
+      "settings": {
+        "foreground": "#d887f5"
+      }
+    },
+    {
+      "name": "diff.deleted",
+      "scope": [
+        "markup.deleted",
+        "punctuation.definition.deleted.diff",
+        "punctuation.definition.from-file.diff",
+        "meta.diff.header.from-file"
+      ],
+      "settings": {
+        "foreground": "#ff52bf"
+      }
+    },
+    {
+      "name": "diff.inserted",
+      "scope": [
+        "markup.inserted",
+        "punctuation.definition.inserted.diff",
+        "punctuation.definition.to-file.diff",
+        "meta.diff.header.to-file"
+      ],
+      "settings": {
+        "foreground": "#1ed3ec",
+      }
+    },
   ]
 }
