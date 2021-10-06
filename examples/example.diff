@@ -1,0 +1,19 @@
+diff --git a/example.css b/example.css
+--- a/example.css
++++ b/example.css
+@@ -1,18 +1,19 @@
+ /* example comment */
+ @namespace
+ @namespace
+ .box {
+   border-radius: 4px;
+-  background-color: #F2F2F2;
++  background-color: SelectedItem;
++  color: SelectedItemText;
+ }
+ 
+ .circle {
+   border-radius: 25%;
+-  background-color: Field;
++  background-color: ButtonHighlight;
+ }
