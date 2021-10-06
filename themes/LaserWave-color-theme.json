@@ -38,7 +38,7 @@
     "activityBar.foreground": "#ddd",
     "activityBar.activeBorder": "#EB64B9",
     "activityBarBadge.background": "#EB64B9",
-    
+
     // Status Bar
     "statusBar.background": "#EB64B9",
     "statusBar.noFolderBackground": "#EB64B9",
@@ -78,7 +78,7 @@
     "list.focusBackground": "#eb64ba60",
     "list.errorForeground": "#ff3e7b",
     "tree.indentGuidesStroke": "#ffffff33",
-    
+
     // Peek
     "peekViewEditor.background": "#40b5c449",
     "peekView.border": "#40b4c4",
@@ -95,6 +95,9 @@
     "diffEditor.border": "#b4dce7",
     "diffEditor.removedTextBackground": "#eb64b940",
     "diffEditor.insertedTextBackground": "#74dfc423",
+    "editorGutter.modifiedBackground": "#40b4c4",
+    "editorGutter.addedBackground": "#74dfc4",
+    "editorGutter.deletedBackground": "#eb64B9"
   },
   "tokenColors": [
     {
@@ -460,19 +463,14 @@
     },
     {
       "name": "diff.header",
-      "scope": [
-        "meta.diff",
-        "meta.diff.header"
-      ],
+      "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
-        "foreground": "#74dfc4",
+        "foreground": "#40b4c4"
       }
     },
     {
       "name": "diff.range",
-      "scope": [
-        "meta.diff.range.unified"
-      ],
+      "scope": ["meta.diff.range.unified"],
       "settings": {
         "foreground": "#b381c5"
       }
@@ -498,8 +496,8 @@
         "meta.diff.header.to-file"
       ],
       "settings": {
-        "foreground": "#40b4c4",
+        "foreground": "#74dfc4"
       }
-    },
+    }
   ]
 }

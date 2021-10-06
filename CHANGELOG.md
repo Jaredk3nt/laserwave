@@ -2,6 +2,12 @@
 
 All notable changes to the "laserwave" extension will be documented in this file.
 
+## 1.3.3
+
+- Diff coloring **thanks to @TGiles**
+  - Diff file coloring
+  - Gutter change coloring
+
 ## 1.3.2
 
 - Small C fix for function args

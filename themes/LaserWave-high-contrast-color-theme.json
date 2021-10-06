@@ -94,7 +94,10 @@
     "gitDecoration.ignoredResourceForeground": "#92889d",
     "diffEditor.border": "#b4dce7",
     "diffEditor.removedTextBackground": "#ff52bf40",
-    "diffEditor.insertedTextBackground": "#3feabf23"
+    "diffEditor.insertedTextBackground": "#3feabf23",
+    "editorGutter.modifiedBackground": "#1ed3ec",
+    "editorGutter.addedBackground": "#3feabf",
+    "editorGutter.deletedBackground": "#ff52bf"
   },
   "tokenColors": [
     {
@@ -465,7 +468,7 @@
         "meta.diff.header"
       ],
       "settings": {
-        "foreground": "#3feabf",
+        "foreground": "#1ed3ec",
       }
     },
     {
@@ -498,7 +501,7 @@
         "meta.diff.header.to-file"
       ],
       "settings": {
-        "foreground": "#1ed3ec",
+        "foreground": "#3feabf",
       }
     },
   ]
