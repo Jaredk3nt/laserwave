@@ -376,6 +376,7 @@
       "name": "variables",
       "scope": [
         "variable.scss",
+        "meta.function-call.c",
         "variable.parameter.ts",
         "variable.parameter.dart",
         "variable.other.class.js",

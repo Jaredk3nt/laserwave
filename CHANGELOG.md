@@ -2,6 +2,10 @@
 
 All notable changes to the "laserwave" extension will be documented in this file.
 
+## 1.3.2
+
+- Small C fix for function args
+
 ## 1.3.1
 
 - Improved Python, C, and C++ support
