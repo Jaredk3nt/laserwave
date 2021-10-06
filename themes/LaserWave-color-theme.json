@@ -94,7 +94,7 @@
     "gitDecoration.ignoredResourceForeground": "#92889d",
     "diffEditor.border": "#b4dce7",
     "diffEditor.removedTextBackground": "#eb64b940",
-    "diffEditor.insertedTextBackground": "#40b5c41d",
+    "diffEditor.insertedTextBackground": "#74dfc423",
   },
   "tokenColors": [
     {

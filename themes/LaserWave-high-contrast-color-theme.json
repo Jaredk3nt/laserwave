@@ -87,14 +87,14 @@
     "peekViewResult.selectionBackground": "#40b4c43f",
 
     // Git
-    "gitDecoration.modifiedResourceForeground": "#74dfc4",
-    "gitDecoration.untrackedResourceForeground": "#40b4c4",
-    "gitDecoration.conflictingResourceForeground": "#EB64B9",
-    "gitDecoration.deletedResourceForeground": "#b381c5",
+    "gitDecoration.modifiedResourceForeground": "#3feabf",
+    "gitDecoration.untrackedResourceForeground": "#1ed3ec",
+    "gitDecoration.conflictingResourceForeground": "#ff52bf",
+    "gitDecoration.deletedResourceForeground": "#d887f5",
     "gitDecoration.ignoredResourceForeground": "#92889d",
     "diffEditor.border": "#b4dce7",
-    "diffEditor.removedTextBackground": "#eb64b940",
-    "diffEditor.insertedTextBackground": "#40b5c41d"
+    "diffEditor.removedTextBackground": "#ff52bf40",
+    "diffEditor.insertedTextBackground": "#3feabf23"
   },
   "tokenColors": [
     {
