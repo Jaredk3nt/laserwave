@@ -32,6 +32,7 @@
     "sideBar.foreground": "#ddd",
     "sideBarSectionHeader.background": "#27212e",
     "sideBarTitle.foreground": "#EB64B9",
+    "sideBar.border": "#ff00a292",
 
     // Activity Bar
     "activityBar.background": "#27212e",
