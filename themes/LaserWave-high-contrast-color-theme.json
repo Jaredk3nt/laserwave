@@ -319,6 +319,7 @@
     {
       "name": "attributes",
       "scope": [
+        "variable.other.enummember",
         "entity.other.attribute-name",
         "entity.other.attribute-name.jsx",
         "entity.other.attribute-name.html",
