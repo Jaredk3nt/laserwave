@@ -319,6 +319,7 @@
     {
       "name": "attributes",
       "scope": [
+        "variable.other.enummember",
         "entity.other.attribute-name",
         "entity.other.attribute-name.jsx",
         "entity.other.attribute-name.html",
@@ -378,6 +379,7 @@
     {
       "name": "variables",
       "scope": [
+        "variable.other",
         "variable.scss",
         "meta.function-call.c",
         "variable.parameter.ts",
@@ -415,6 +417,7 @@
     {
       "name": "Types",
       "scope": [
+        "entity.name.type",
         "storage.type",
         "keyword.var.go",
         "keyword.type.go",
