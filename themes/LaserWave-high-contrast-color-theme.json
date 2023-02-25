@@ -44,6 +44,7 @@
     "statusBar.noFolderBackground": "#EB64B9",
     "statusBar.foreground": "#27212e",
     "statusBar.debuggingBackground": "#74dfc4",
+    "statusBarItem.remoteForeground": "#27212e",
 
     // Files
     "merge.currentHeaderBackground": "#74dfc4cc",
